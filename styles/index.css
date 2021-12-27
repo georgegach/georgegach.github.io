@@ -1,0 +1,66 @@
+@tailwind base;
+/* Write your own custom base styles here */
+
+
+
+/* Start purging... */
+
+@tailwind components;
+/* Stop purging. */
+
+/* Write you own custom component styles here */
+
+/* Start purging... */
+
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
+
+
+
+
+@layer components {
+
+    /*
+    
+        DEFINE FONTFACES
+    
+    */
+    @font-face {
+        font-family: 'Anbani Noto Sans';
+        src: url('../typography/AnbaniNotoSans-Regular.woff2') format('woff2'), url('../typography/AnbaniNotoSans-Regular.woff') format('woff'), url('../typography/AnbaniNotoSans-Regular.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'Anbani Noto Serif';
+        src: url('../typography/AnbaniNotoSerif-Regular.woff2') format('woff2'), url('../typography/AnbaniNotoSerif-Regular.woff') format('woff'), url('../typography/AnbaniNotoSerif-Regular.ttf') format('truetype');
+    }
+
+
+    /* 
+    
+        DEFINE GLOBALS
+    
+    */
+
+    html, body {
+        overflow-x: hidden;
+        @apply bg-secondary-200 selection:bg-secondary-400 selection:text-brand-50
+    }
+
+    /* removes annoying blue rectangle on mobile */
+
+    * {
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+
+    /* 
+    
+        COMPONENTS
+    
+    */
+
+    
+}

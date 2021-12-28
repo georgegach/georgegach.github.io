@@ -7,6 +7,7 @@ const genetics = {
         'rounded-tr-full': 1,
         'rounded-bl-full': 4,
         'rounded-br-full': 4,
+        'rounded-full':10,
     },
 
     palette: {
@@ -102,58 +103,6 @@ export default function Art() {
     const [artArray, setArtArray] = useState([])
 
 
-    function sample(array) {
-        return array[Math.floor(Math.random(1) * array.length)];
-    }
-
-    function shuffle(array) {
-        let currentIndex = array.length, randomIndex;
-
-        // While there remain elements to shuffle...
-        while (currentIndex != 0) {
-
-            // Pick a remaining element...
-            randomIndex = Math.floor(Math.random() * currentIndex);
-            currentIndex--;
-
-            // And swap it with the current element.
-            [array[currentIndex], array[randomIndex]] = [
-                array[randomIndex], array[currentIndex]];
-        }
-
-        return array;
-    }
-
-    function zipfColors(num) {
-        let colors = shuffle(palette)
-        let classes = []
-
-        for (let i = 0; i < colors.length; i++) {
-            let n = Math.floor((num / 2) / (i + 1))
-            console.log(n)
-
-            for (let z = 0; z < n; z++) {
-                classes.push(`h-20 w-20 bg-${colors[i]}-${sample(intensity)} ${sample(rounds)}`)
-            }
-        }
-
-        console.log(num, classes.length)
-
-        return shuffle(classes).slice(0, num)
-    }
-
-
-    function generateArtArray(num) {
-        return Array.apply(0, Array(num)).map((_, i) => {
-            let randcolor = sample(palette);
-            let randintensity = sample(intensity)
-            let randshape = sample(rounds)
-
-            let className = `h-20 w-20 bg-${randcolor}-${randintensity} ${randshape}`
-            return className;
-        })
-    }
-
     useEffect(() => {
         setArtArray(generateDNA(12))
     }, [])
@@ -167,6 +116,7 @@ export default function Art() {
             <div className="container mx-auto flex flex-col justify-center items-center h-full">
 
                 <button className=" bg-lime-500 text-white text-3xl active:bg-lime-600 p-4 m-8 rounded-full" onClick={event => { setArtArray(generateDNA(12)) }}>Re-Generate</button>
+               
                 <div className="border-[30px] border-secondary-800 grid grid-cols-3 grid-rows-4 bg-white shadow-lg p-20">
 
                     {artArray.map((item, i) => {
@@ -183,7 +133,7 @@ export default function Art() {
                     return acc + a.value
                 }, 0)}</div>
 
-                <div className="text-sm mt-20">{wordlist}</div>
+                {/* <div className="text-sm mt-20">{wordlist}</div> */}
 
             </div>
         </>

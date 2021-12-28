@@ -73,7 +73,7 @@
     */
 
     .dotgrid {
-        background-image: radial-gradient(hsla(210, 40%, 96%, 0.5) 1%, transparent 0);
+        background-image: radial-gradient(hsla(210, 40%, 96%, 0.7) 2%, transparent 0);
         background-size: 31px 31px;
     }
 

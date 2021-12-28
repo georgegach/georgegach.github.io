@@ -37,6 +37,16 @@
         src: url('../typography/AnbaniNotoSerif-Regular.woff2') format('woff2'), url('../typography/AnbaniNotoSerif-Regular.woff') format('woff'), url('../typography/AnbaniNotoSerif-Regular.ttf') format('truetype');
     }
 
+    @font-face {
+        font-family: 'Relish Pro Light';
+        src: url('../typography/RelishPro-Light.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'Relish Pro';
+        src: url('../typography/RelishPro.ttf') format('truetype');
+    }
+
 
     /* 
     
@@ -46,7 +56,7 @@
 
     html, body {
         overflow-x: hidden;
-        @apply bg-secondary-200 selection:bg-secondary-400 selection:text-brand-50
+        @apply bg-brand-800 selection:bg-secondary-400 selection:text-brand-50
     }
 
     /* removes annoying blue rectangle on mobile */
@@ -62,5 +72,9 @@
     
     */
 
-    
+    .dotgrid {
+        background-image: radial-gradient(hsla(210, 40%, 96%, 0.5) 1%, transparent 0);
+        background-size: 31px 31px;
+    }
+
 }

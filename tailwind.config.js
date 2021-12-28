@@ -31,8 +31,11 @@ module.exports = {
       }, 
       
       fontFamily: {
-        sans: ['Anbani Noto Sans', 'sans-serif'],
-        serif: ['Anbani Noto Serif', 'serif'],
+        anbanisans: ['Anbani Noto Sans', 'sans-serif'],
+        anbaniserif: ['Anbani Noto Serif', 'serif'],
+        relish: ['Relish Pro', 'sans-serif'],
+        relishlight: ['Relish Pro Light', 'sans-serif'],
+        sans:  ['Relish Pro', 'sans-serif'],
       },
 
     },

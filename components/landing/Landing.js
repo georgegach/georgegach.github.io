@@ -40,9 +40,12 @@ export default function Landing({ }) {
                             alt="George's profle picture" />
 
                         <div className="font-anbanisans prose px-6 text-secondary-700">
-                            For the past decade I've been designing and building awesome web and mobile apps. After the graduate degree program in US as a Fulbrighter, I've transitioned my career into Machine Learning which I firmly believe is software development 2.0 and future of the entire industry. <br /><br />
+                            For the past decade, I've had the pleasure to work in various fields of software engineering. It all started out with the delight of building awesome web and mobile apps almost a decade ago. 
+                            Later on, as a Fulbright Scholar to the US, I've had the pleasure to rediscover my long-time passion for all things Data which inevitably nudged to me delve into the rich world of modern AI during my graduate studies. <br /><br />
+                            The field I chose to follow is called Machine Learning which concerns itself in delegating conventionally unprogrammable tasks to a computer equipped with a bunch of clever algorithms that have been exceeding super-human comprehension every year for the past decade.  
+                            At this point, it's beyond a doubt that ML is the software development 2.0, or at least a big chunk of it, and I'm excited to be part of that journey going forward.<br /><br />
 
-                            On this website you'll find some of the projects I worked on spanning but not limited to Data Science, Web and Mobile apps, Music, Design, Typography and so on. <br /><br />
+                            On this website you'll find some of the projects I worked on spanning but not limited to Data Science and ML, Web and Mobile apps, Music, Design, Typography and so on. <br /><br />
 
 
                         </div>

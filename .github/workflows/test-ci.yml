@@ -11,8 +11,11 @@ jobs:
 
     steps:
     - name: Find version number
-      run: export SOME_VERSION=$(python --version)
+      id: flowbuild
+      run: | 
+        export SOME_VERSION=$(python --version)
+        echo "::set-output name=ver::${SOME_VERSION}"
       
     - name: Push to dockerhub
-      run: echo ${{ env.SOME_VERSION }}
+      run: echo "georgegach/flowiz:${{ steps.flowbuild.outputs.ver }}"
     

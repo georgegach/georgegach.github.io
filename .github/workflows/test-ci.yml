@@ -10,5 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Build the Docker image
-      run: python -c 'print("hello world")'
+    - name: Find version number
+      run: export SOME_VERSION=$(python --version)
+      
+    - name: Push to dockerhub
+      run: echo ${{ env.SOME_VERSION }}
+    

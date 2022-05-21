@@ -48,6 +48,67 @@
     }
 
 
+    @font-face {
+        font-family: 'FiraGO';
+        src: url('../typography/FiraGO/FiraGO-Heavy.otf') format('truetype');
+        font-weight: 900;
+    }
+
+    @font-face {
+        font-family: 'FiraGO';
+        src: url('../typography/FiraGO/FiraGO-ExtraBold.otf') format('truetype');
+        font-weight: 800;
+    }
+
+    @font-face {
+        font-family: 'FiraGO';
+        src: url('../typography/FiraGO/FiraGO-Bold.otf') format('truetype');
+        font-weight: 700;
+    }
+
+    @font-face {
+        font-family: 'FiraGO';
+        src: url('../typography/FiraGO/FiraGO-SemiBold.otf') format('truetype');
+        font-weight: 600;
+    }
+
+
+    @font-face {
+        font-family: 'FiraGO';
+        src: url('../typography/FiraGO/FiraGO-Bold.otf') format('truetype');
+        font-weight: 700;
+    }
+
+    @font-face {
+        font-family: 'FiraGO';
+        src: url('../typography/FiraGO/FiraGO-Medium.otf') format('truetype');
+        font-weight: 500;
+    }
+
+    @font-face {
+        font-family: 'FiraGO';
+        src: url('../typography/FiraGO/FiraGO-Regular.otf') format('truetype');
+        font-weight: 400;
+    }
+
+    @font-face {
+        font-family: 'FiraGO';
+        src: url('../typography/FiraGO/FiraGO-Light.otf') format('truetype');
+        font-weight: 300;
+    }
+
+    @font-face {
+        font-family: 'FiraGO';
+        src: url('../typography/FiraGO/FiraGO-Thin.otf') format('truetype');
+        font-weight: 200;
+    }
+    @font-face {
+        font-family: 'FiraGO';
+        src: url('../typography/FiraGO/FiraGO-Hair.otf') format('truetype');
+        font-weight: 100;
+    }
+
+
     /* 
     
         DEFINE GLOBALS
@@ -76,5 +137,40 @@
         background-image: radial-gradient(hsla(210, 40%, 96%, 0.7) 2%, transparent 0);
         background-size: 31px 31px;
     }
+
+    .dotgridfooter {
+        background-image: radial-gradient(hsla(215, 25%, 40%, 0.1) 5%, transparent 0);
+        background-size: 22px 22px;
+    }
+
+    .page {
+        background: white;
+        display: block;
+        margin: 20px auto;
+        page-break-after: always;
+    }
+
+    .pageA4 {
+        width: 21cm;
+        height: 29.7cm;
+    }
+
+    @media print {
+
+        body,
+        .page {
+            margin: 0;
+            /* overflow: hidden; */
+            overflow: visible;
+        }
+
+        .container {
+            @apply pt-0
+        }
+    }
+
+
+
+    
 
 }

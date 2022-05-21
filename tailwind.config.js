@@ -33,6 +33,7 @@ module.exports = {
       fontFamily: {
         anbanisans: ['Anbani Noto Sans', 'sans-serif'],
         anbaniserif: ['Anbani Noto Serif', 'serif'],
+        firago: ['FiraGO', 'sans-serif'],
         relish: ['Relish Pro', 'sans-serif'],
         relishlight: ['Relish Pro Light', 'sans-serif'],
         sans:  ['Relish Pro', 'sans-serif'],

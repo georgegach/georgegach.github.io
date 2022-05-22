@@ -139,7 +139,7 @@
     }
 
     .dotgridfooter {
-        background-image: radial-gradient(hsla(215, 25%, 40%, 0.1) 5%, transparent 0);
+        background-image: radial-gradient(hsla(215, 25%, 70%, 1) 4%, transparent 0);
         background-size: 22px 22px;
     }
 
@@ -153,6 +153,7 @@
     .pageA4 {
         width: 21cm;
         height: 29.7cm;
+        overflow:hidden;
     }
 
     @media print {
@@ -162,6 +163,10 @@
             margin: 0;
             /* overflow: hidden; */
             overflow: visible;
+        }
+
+        .hello {
+            display: none;
         }
 
         .container {

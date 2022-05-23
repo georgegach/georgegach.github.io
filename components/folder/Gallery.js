@@ -12,14 +12,14 @@ export default function Gallery({}) {
 
             {
                 projects.map((item, i) => {
-                    console.log(item)
                     return <Card 
-
+                        key={item.name}
                         name={item.name}
                         descEn={item.desc.en}
                         descKa={item.desc.ka}
                         img={item.img}
                         tags={item.tags}
+                        url={item.url}
 
                     />
                 })

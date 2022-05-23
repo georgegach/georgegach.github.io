@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Link from 'next/link'
 
 
 const genetics = {
@@ -7,7 +8,7 @@ const genetics = {
         'rounded-tr-full': 1,
         'rounded-bl-full': 4,
         'rounded-br-full': 4,
-        'rounded-full':10,
+        'rounded-full': 10,
     },
 
     palette: {
@@ -52,7 +53,6 @@ function obtain(dict) {
         return Array(chance).fill(i)
     }).flat()
 
-    console.log(choices)
 
     let nucleotide = dictkeys[choices[Math.floor(Math.random() * choices.length)]]
     return {
@@ -73,7 +73,6 @@ function generateDNA(num) {
             value: p.value + i.value + c.value
         }
     })
-    console.log(dna)
 
     return dna
 
@@ -101,11 +100,28 @@ const lel = "bg-red-300 bg-red-400 bg-red-500 bg-red-600 bg-orange-300 bg-orange
 
 export default function Art() {
     const [artArray, setArtArray] = useState([])
+    const [artValue, setArtValue] = useState('')
 
+    const calcArtValue = () => {
+        let val = artArray.reduce((acc, a) => {
+            return acc + a.value
+        }, 0)
+
+        let n_stars = parseInt(val/10)
+
+        return '⭐️'.repeat(n_stars)
+    }
 
     useEffect(() => {
         setArtArray(generateDNA(12))
+        setArtValue(calcArtValue())
     }, [])
+
+
+    useEffect(() => {
+        // setArtArray(generateDNA(12))
+        setArtValue(calcArtValue())
+    }, [artArray])
 
     const wordlist = Object.keys(genetics.palette).map(p => Object.keys(genetics.intensity).map(i => ` bg-${p}-${i} `))
 
@@ -113,25 +129,39 @@ export default function Art() {
 
     return (
         <>
-            <div className="container mx-auto flex flex-col justify-center items-center h-full">
+            <div className="container mx-auto flex flex-col justify-center items-center h-full pt-6 print:p-0 ">
+                <div className="flex flex-row space-x-2">
 
-                <button className=" bg-lime-500 text-white text-3xl active:bg-lime-600 p-4 m-8 rounded-full" onClick={event => { setArtArray(generateDNA(12)) }}>Re-Generate</button>
-               
-                <div className="border-[30px] border-secondary-800 grid grid-cols-3 grid-rows-4 bg-white shadow-lg p-20">
+
+                    <Link href="/">
+                        <a className="print:hidden hover:bg-slate-900 hover:shadow-lg text-sm tracking-widest text-slate-50 text-center mx-auto bg-slate-800 px-8 py-4 my-2 drop-shadow-xl">
+                            Back to Home Page
+                        </a>
+                    </Link >
+
+                    <button
+                        className=" print:hidden hover:bg-slate-900 hover:shadow-lg text-sm tracking-widest text-slate-50 text-center mx-auto bg-slate-800 p-4 my-2 drop-shadow-xl"
+                        onClick={event => { setArtArray(generateDNA(12)) }}>
+                        ✨
+                    </button>
+
+                </div>
+
+                <div className="border-8 m-4 sm:m-0 sm:border-[30px] border-secondary-800 grid grid-cols-3 grid-rows-4 bg-white shadow-lg p-8 sm:p-20">
 
                     {artArray.map((item, i) => {
                         return (
                             <span key={i}
                                 onClick={(event) => replaceStrand(i, artArray, setArtArray)}
-                                className={item.strand}></span>
+                                className={item.strand + " transition-all"}></span>
                         )
                     })}
 
                 </div>
 
-                <div className="text-5xl font-bold mx-auto">Value: {artArray.reduce((acc, a) => {
-                    return acc + a.value
-                }, 0)}</div>
+
+
+                <div className="print:hidden text-xl pt-4 font-bold w-32 text-center break-words">{artValue}</div>
 
                 {/* <div className="text-sm mt-20">{wordlist}</div> */}
 

@@ -76,14 +76,12 @@ export default function ArtZipfv() {
 
         for (let i = 0; i < colors.length; i++) {
             let n = Math.floor((num / 2) / (i + 1))
-            console.log(n)
 
             for (let z = 0; z < n; z++) {
                 classes.push(`h-14 w-14 md:h-20 md:w-20 bg-${colors[i]}-${sample(intensity)} ${sample(rounds)}`)
             }
         }
 
-        console.log(num, classes.length)
 
         return shuffle(classes).slice(0, num)
     }
@@ -123,7 +121,7 @@ export default function ArtZipfv() {
                     {artArray.map((item, i) => {
                         return (
                             <span key={i}
-                                className={item}></span>
+                                className={item + " transition-all"}></span>
                         )
                     })}
 

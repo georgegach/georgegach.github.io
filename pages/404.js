@@ -17,7 +17,7 @@ export default function Index({ allPosts }) {
             <p className="text-2xl text-gray-400 md:text-3xl">ᲐᲡᲔ ᲕᲔᲠ ᲒᲐᲕᲤᲠᲘᲜᲓᲔᲑᲘᲗ</p>
             <p className="mt-4 mb-8 text-gray-400">გვერდი რომლის მონახულებასაც ცდილობთ აღარ არსებობს ან სულ არც არსებობდა.</p>
             <Link href="/">
-              <a href="#" className="px-8 py-3 rounded rounded-full bg-indigo-400 text-white hover:bg-indigo-500 hover:shadow-md">დაბრუნდით მთავარ გვერდზე</a>
+              <a href="#" className="px-8 py-3 rounded rounded-full bg-indigo-400 text-white hover:bg-indigo-500 hover:shadow-md whitespace-nowrap">დაბრუნდით მთავარ გვერდზე</a>
             </Link>
           </div>
         </div>

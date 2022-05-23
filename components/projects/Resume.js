@@ -13,7 +13,7 @@ export default function Resume() {
         <>
             <div className="font-firago container mx-auto flex flex-col justify-center text-slate-800 ">
 
-                <button onClick={event => { window.print(); return false }} className="hello hover:bg-slate-900 hover:shadow-lg text-sm tracking-widest text-slate-50 p-5 text-center mx-auto mt-16 bg-slate-800 w-72 drop-shadow-xl">
+                <button onClick={event => { window.print(); return false }} id="printResumeBtn" className="hello hover:bg-slate-900 hover:shadow-lg text-sm tracking-widest text-slate-50 p-5 text-center mx-auto mt-16 bg-slate-800 w-72 drop-shadow-xl">
                     Print Resume
                 </button>
 

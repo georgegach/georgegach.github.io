@@ -13,9 +13,9 @@ export default function Resume() {
         <>
             <div className="font-firago container mx-auto flex flex-col justify-center text-slate-800 ">
 
-                <button onClick={event => { window.print(); return false }} id="printResumeBtn" className="hello hover:bg-slate-900 hover:shadow-lg text-sm tracking-widest text-slate-50 p-5 text-center mx-auto mt-16 bg-slate-800 w-72 drop-shadow-xl">
-                    Print Resume
-                </button>
+                <a href="/assets/resume/georgegach_resume.pdf" className="hello hover:bg-slate-900 hover:shadow-lg text-sm tracking-widest text-slate-50 p-5 text-center mx-auto mt-16 bg-slate-800 w-72 drop-shadow-xl" target="_blank">
+                    Download Resume
+                </a>
 
                 <Link href="/">
                     <a className="hello hover:bg-slate-900 hover:shadow-lg text-sm tracking-widest text-slate-50 p-5 text-center mx-auto mt-4 bg-slate-800 w-72 mb-8 drop-shadow-xl">
@@ -182,7 +182,7 @@ export default function Resume() {
                     </div>
                     <div className="footer bg-slate-800 text-slate-100 text-xs flex flex-row justify-between h-12 px-5 items-center w-full">
                         <div className="tracking-widest font-medium">GACH.ML<span className="text-slate-100/60 font-light tracking-widest"> / RESUME</span></div>
-                        <div className="tracking-widest font-light">ᲛᲐᲘᲡᲘ <b className="text-sm">2022</b></div>
+                        <div className="tracking-widest font-light">ᲘᲕᲜᲘᲡᲘ <b className="text-sm">2022</b></div>
                     </div>
 
 
@@ -228,11 +228,11 @@ export default function Resume() {
                                 <div className="flex flex-col text-left">
                                     <div className="text-l">ᲐᲜᲑᲐᲜᲘ ჻ ANBANI</div>
                                     <div className="text-xs">An interactive educational platform designed to preserve and support every iteration of the Georgian alphabet on the internet using Web Technologies, Modern Typesetting, and Artificial Intelligence.</div>
-                                    <div className="text-xs">– Anbani.ge - Collection of alphabet-related web tools with 2k monthly active visitors.</div>
-                                    <div className="text-xs">– Anbani.js - Javascript toolkit for working with every iteration of the Georgian alphabet.</div>
-                                    <div className="text-xs">– Anbani Keyboard - First Android keyboard to support every variation of the Georgian alphabet reaching 50k+ daily active users and 4.8 rating with 1k+ votes on the Play Store.</div>
-                                    <div className="text-xs">– Anbani Words - Georgian Wikipedia word embeddings with client-side word2vec and 3D visualization.</div>
-                                    <div className="text-xs">– Anbani Fake - Truly fake but Georgian sounding names and lorem ipsum texts generated using CharRNN model trained on timeless epic Vepkhistkaosani.</div>
+                                    <div className="text-xs">– <a className="underline" href="https://anbani.ge" target="_blank">Anbani.ge</a> - a collection of Web and AI tools tasked to help Georgian language and alphabet respond to the digital challenges of today.</div>
+                                    <div className="text-xs">– <a className="underline" href="https://anbani.ge/wordnet" target="_blank">Anbani Wordnet</a> - First Georgian association wordnet based on ML tools like FastText word embeddings and Bert masked language model to deliver relevant unsupervised word suggestions.</div>
+                                    <div className="text-xs">– <a className="underline" href="https://github.com/anbani/anbani.js" target="_blank">Anbani.JS</a> - Javascript toolkit for working with every iteration of the Georgian alphabet.</div>
+                                    <div className="text-xs">– <a className="underline" href="https://github.com/anbani/anbani.py" target="_blank">Anbani.Py</a> - Python toolkit for Georgian NLP tasks and more.</div>
+                                    <div className="text-xs">– <a className="underline" href="https://anbani.ge/textart" target="_blank">Anbani TextArt</a> - First Georgian text art generator because why not!</div>
                                     <div className="text-xs">{/* Feb 2017 - Jul 2017 */}</div>
                                 </div>
                             </div>
@@ -241,7 +241,16 @@ export default function Resume() {
                             <div className="col-span-10 pb-1">
                                 <div className="flex flex-col">
                                     <div className="text-l mt-4">Flowiz</div>
-                                    <div className="text-xs">Leading PyPI-published python toolkit for converting optical flow estimation artifacts into visualizable representations such as images, and videos within a CLI or an interactive web interface on electron.</div>
+                                    <div className="text-xs">Leading <a className="underline" href="https://pypi.org/project/flowiz/" target="_blank">PyPI-published</a> python toolkit to convert optical flow estimation artifacts into visualizable representations such as images, and videos within a CLI or an interactive web interface on electron. Available at <a href="https://github.com/georgegach/flowiz/" target="_blank">https://github.com/georgegach/flowiz/</a></div>
+                                    <div className="text-xs">{/* May 2016 - Jan 2017 */}</div>
+                                </div>
+                            </div>
+
+                            <div className="col-span-2 border-r-4 border-slate-200 text-right pr-4 text-sm "></div>
+                            <div className="col-span-10 pb-1">
+                                <div className="flex flex-col">
+                                    <div className="text-l mt-4">Arxiv Trends</div>
+                                    <div className="text-xs">A <a className="underline" href="https://twitter.com/arxivtrends" target="_blank">Twitter Bot</a> tasked to mine social platforms, understand research trends and tweet about them.</div>
                                     <div className="text-xs">{/* May 2016 - Jan 2017 */}</div>
                                 </div>
                             </div>
@@ -277,7 +286,7 @@ export default function Resume() {
                             </div>
                         </div>
                     </div>
-                    <div className="footerWrapper dotgridfooter flex flex-col pt-20  bg-slate-50 justify-center items-start ">
+                    <div className="footerWrapper dotgridfooter flex flex-col pt-1  bg-slate-50 justify-center items-start ">
                         <div className="bg-slate-50 w-24 p-1 my-4 mx-4 ">
                             <Link href="/secret">
                                 <a href="http://gach.ml/secret">
@@ -287,7 +296,7 @@ export default function Resume() {
                         </div>
                         <div className="footer bg-slate-800   text-slate-100 text-xs flex flex-row justify-between px-5 h-12 items-center w-full">
                             <div className="tracking-widest font-medium">GACH.ML<span className="text-slate-100/60 font-light tracking-widest"> / RESUME</span></div>
-                            <div className="tracking-widest font-light">ᲛᲐᲘᲡᲘ <b className="text-sm">2022</b></div>
+                            <div className="tracking-widest font-light">ᲘᲕᲜᲘᲡᲘ <b className="text-sm">2022</b></div>
                         </div>
                     </div>
                 </div>

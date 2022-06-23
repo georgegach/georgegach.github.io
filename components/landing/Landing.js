@@ -73,14 +73,14 @@ export default function Landing({ }) {
                                 <b> Available for hire!</b> Feel free to reach out on my socials or via <a href="mailto:georgegach@outlook.com">email</a>. Recruiters, you may obtain my resume <Link href="/resume"><a>here</a></Link>.
                             </div>
 
-                            For the past decade, I've had the pleasure to work in various fields of software engineering. It all started out with the delight of building awesome web and mobile apps almost a decade ago.
-                            Later on, as a Fulbright Scholar in the US, I've had the pleasure to rediscover my long-time passion for all things Data which inevitably nudged to me delve into the rich world of modern AI during my graduate studies. <br /><br />
-                            The field I'm practicing is called Machine Learning which concerns itself with solving conventionally unprogrammable tasks with a bunch of clever algorithms abstracted as iterative learning tasks. For the past decade, researchers armed with ML tools have been exceeding super-human comprehension every year in a range of fields be it vision, speech recognition, machine translation, playing GO or Starcraft!
-                            <br/><br/>At this point, it's beyond a doubt that ML is the software development 2.0, or at least a big chunk of it, and I'm excited to be part of that journey going forward.<br /><br />
+                            For the past decade, I've had a pleasure to work in various fields of software engineering. It all started out with the delight of building awesome web and mobile apps almost a decade ago.
+                            Later on, as a Fulbright Scholar in the US, I rediscovered my long-time passion for all things Data which inevitably nudged to me delve into the rich world of modern AI during my graduate studies. <br /><br />
+                            The field I'm practicing for these past few years is called Machine Learning which concerns itself with solving conventionally unprogrammable tasks with a bunch of clever algorithms abstracted as iterative learning tasks. All throughout last decade, researchers armed with ML tools have been exceeding super-human comprehension every year in a range of fields be it vision, speech recognition, machine translation, playing GO or Starcraft!
+                            <br/><br/>At this point, it's beyond a reasonable doubt that ML is the software development 2.0, or at least a big chunk of it, and I'm excited to be part of that journey going forward.<br /><br />
 
-                            On this website, you'll find some of the projects I worked on spanning but not limited to Data Science,  Machine Learning, Web & Mobile apps, Music, Design, Typography, and so on. <br /><br />
+                            On this website, you'll find some of the projects I worked on spanning but not limited to Data Science, Machine Learning, Web & Mobile apps, Music, Design, Typography, and so on. <br /><br />
 
-
+                            I'm currently specializing in building efficient NLP pipelines end-to-end from data gathering and model training to cloud-native deployment with Web UI. And Yes, my decade-long experience being a fullstack web app developer comes very handy in this new endeavour, can't complain. <br /><br />
 
                             <br /><br />
 

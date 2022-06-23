@@ -80,7 +80,7 @@ export default function Landing({ }) {
 
                             On this website, you'll find some of the projects I worked on spanning but not limited to Data Science, Machine Learning, Web & Mobile apps, Music, Design, Typography, and so on. <br /><br />
 
-                            I'm currently specializing in building efficient NLP pipelines end-to-end from data gathering and model training to cloud-native deployment with Web UI. And Yes, my decade-long experience being a fullstack web app developer comes very handy in this new endeavour, can't complain. <br /><br />
+                            I'm currently specializing in building effective NLP pipelines end-to-end from data gathering and model training to cloud deployment with CI/CD, proper governance, monitoring and friendly Web UI. Yep, my decade-long experience being a fullstack web app developer comes very handy in this new endeavour, can't complain. <br /><br />
 
                             <br /><br />
 

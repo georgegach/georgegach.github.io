@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 
 export default function Resume() {
-    
+
     useEffect(() => {
         // window.scrollTo(0, 0);
         document.body.scrollTop = 0;
@@ -30,8 +30,8 @@ export default function Resume() {
 
                         {/* NAME and SOCIAL */}
                         <div className="container w-full flex flex-row justify-center tracking-wider gap-x-8 pr-6">
-                            <div className="name text-5xl text-right pt-1 tracking-tight">
-                                <div className="fname font-light">ᲒᲘᲝᲠᲒᲘ</div><div className="lname font-medium">ᲒᲐᲩᲔᲩᲘᲚᲐᲫᲔ</div>
+                            <div className="name text-6xl text-right pb-2 tracking-wide font-italiana ">
+                                <div className="fname text-secondary-600">Giorgi</div><div className="lname text-5xl text-secondary-500 ">Gachechiladze</div>
                             </div>
 
                             <div className="social">
@@ -181,8 +181,8 @@ export default function Resume() {
                         </div>
                     </div>
                     <div className="footer bg-slate-800 text-slate-100 text-xs flex flex-row justify-between h-12 px-5 items-center w-full">
-                        <div className="tracking-widest font-medium">GACH.ML<span className="text-slate-100/60 font-light tracking-widest"> / RESUME</span></div>
-                        <div className="tracking-widest font-light">ᲘᲕᲜᲘᲡᲘ <b className="text-sm">2022</b></div>
+                        <a href="https://gach.ml/resume" target="_blank"><div className="tracking-widest font-medium">GACH.ML<span className="text-slate-100/60 font-light tracking-widest"> / RESUME</span></div></a>
+                        <div className="tracking-widest font-light">JUNE <b className="text-sm">2022</b></div>
                     </div>
 
 
@@ -241,7 +241,7 @@ export default function Resume() {
                             <div className="col-span-10 pb-1">
                                 <div className="flex flex-col">
                                     <div className="text-l mt-4">Flowiz</div>
-                                    <div className="text-xs">Leading <a className="underline" href="https://pypi.org/project/flowiz/" target="_blank">PyPI-published</a> python toolkit to convert optical flow estimation artifacts into visualizable representations such as images, and videos within a CLI or an interactive web interface on electron. Available at <a href="https://github.com/georgegach/flowiz/" target="_blank">https://github.com/georgegach/flowiz/</a></div>
+                                    <div className="text-xs">Leading PyPI-published python toolkit to convert optical flow estimation artifacts into visualizable representations such as images, and videos within a CLI or an interactive web interface on electron. Available at <a href="https://github.com/georgegach/flowiz/" target="_blank">https://github.com/georgegach/flowiz/</a></div>
                                     <div className="text-xs">{/* May 2016 - Jan 2017 */}</div>
                                 </div>
                             </div>
@@ -287,7 +287,7 @@ export default function Resume() {
                         </div>
                     </div>
                     <div className="footerWrapper dotgridfooter flex flex-col pt-1  bg-slate-50 justify-center items-start ">
-                        <div className="bg-slate-50 w-24 p-1 my-4 mx-4 ">
+                        <div className="bg-slate-50 w-24 p-1 my-2 ml-2.5 mr-2 ">
                             <Link href="/secret">
                                 <a href="http://gach.ml/secret">
                                     <img src="assets/resume/qr.png" className="" alt="" />
@@ -295,8 +295,8 @@ export default function Resume() {
                             </Link>
                         </div>
                         <div className="footer bg-slate-800   text-slate-100 text-xs flex flex-row justify-between px-5 h-12 items-center w-full">
-                            <div className="tracking-widest font-medium">GACH.ML<span className="text-slate-100/60 font-light tracking-widest"> / RESUME</span></div>
-                            <div className="tracking-widest font-light">ᲘᲕᲜᲘᲡᲘ <b className="text-sm">2022</b></div>
+                            <a href="https://gach.ml/resume" target="_blank"><div className="tracking-widest font-medium">GACH.ML<span className="text-slate-100/60 font-light tracking-widest"> / RESUME</span></div></a>
+                            <div className="tracking-widest font-light">JUNE <b className="text-sm">2022</b></div>
                         </div>
                     </div>
                 </div>

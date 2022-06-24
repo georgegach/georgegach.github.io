@@ -34,6 +34,7 @@ module.exports = {
         anbanisans: ['Anbani Noto Sans', 'sans-serif'],
         anbaniserif: ['Anbani Noto Serif', 'serif'],
         firago: ['FiraGO', 'sans-serif'],
+        italiana: ['Italiana', 'serif'],
         relish: ['Relish Pro', 'sans-serif'],
         relishlight: ['Relish Pro Light', 'sans-serif'],
         sans:  ['Relish Pro', 'sans-serif'],

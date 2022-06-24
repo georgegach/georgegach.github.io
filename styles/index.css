@@ -107,6 +107,10 @@
         src: url('../typography/FiraGO/FiraGO-Hair.otf') format('truetype');
         font-weight: 100;
     }
+    @font-face {
+        font-family: 'Italiana';
+        src: url('../typography/Italiana-Regular.ttf') format('truetype');
+    }
 
 
     /* 

@@ -70,7 +70,9 @@ export default function Landing({ }) {
                         <div   className="font-firago text-sm text-justify prose px-6 text-secondary-700 drop-shadow-sm">
                             <div className='bg-slate-100 p-4 -mx-4 mb-4'>
 
-                                <b> Available for offers!</b> Feel free to reach out on my socials or via <a href="mailto:georgegach@outlook.com">email</a>. Recruiters, you may obtain my latest resume <Link href="/resume"><a>here</a></Link>.
+                            👋 Open to full-time remote or on-site position as a Data Solution Architect focussing on Recommender Engines, Spatio-Temporal Analytics and Application of Large Language Models. <br/><br/> 
+                            💌 Feel free to reach out on my socials or via <a href="mailto:georgegach@outlook.com">email</a>.<br/> 
+                            📜 Recruiters, you may obtain my latest resume <Link href="/resume"><a>here</a></Link>.
                             </div>
 
                             For the past decade, I've had the chance to dive into various corners of software engineering. My career began with the joy of building awesome web and mobile applications more than ten years ago.
@@ -82,10 +84,17 @@ export default function Landing({ }) {
 
                             I love building stuff end-to-end which requires a lot of full-stack experience that I accumulated throughout past decade. Besides ML my skillset also extends to the domains of Web, DevOps, Databases and Visualizations. Check out my resume for more details. <br /><br />
 
-                            <br /><br />
-
-
                         </div>
+
+                        <div className="font-firago container mx-auto flex flex-col justify-center text-slate-800 ">
+
+                            <Link href="/resume">
+                                <a className="hello hover:bg-slate-900 hover:shadow-lg text-sm tracking-widest text-slate-50 p-5 text-center mx-auto  bg-slate-800 w-72 mb-16 drop-shadow-xl">
+                                    Open Resume
+                                </a>
+                            </Link >
+                        </div>
+
 
                         <Gallery />
                         {/* <Art /> */}

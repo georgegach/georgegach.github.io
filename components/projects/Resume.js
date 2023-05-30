@@ -96,11 +96,11 @@ export default function Resume() {
 
                         {/* OBJECTIVE */}
 
-                        <div className="mt-8 grid grid-cols-12 gap-x-4">
+                        <div className="mt-6 grid grid-cols-12 gap-x-4">
                             <div className="col-span-2 border-r-4 border-slate-200 text-right pr-4 text-sm pt-0"><b>objective</b><br /></div>
                             <div className="col-span-10">
                                 <div className="flex flex-col justify-center">
-                                    <div className="text-xs pt-0.5">Middle-level full-time remote or on-site position as a Data Scientist, Machine Learning or MLOps Engineer</div>
+                                    <div className="text-xs pt-0.5">Principal-level full-time remote or on-site position as a Data Scientist or Machine Learning Engineer.</div>
                                 </div>
                             </div>
 
@@ -110,24 +110,78 @@ export default function Resume() {
 
                         {/* PROFESSIONAL SKILLS */}
 
-                        <div className="mt-8 grid grid-cols-12 gap-x-4">
+                        <div className="mt-6 grid grid-cols-12 gap-x-4">
                             <div className="col-span-2 border-r-4 border-slate-200 text-right pr-4 text-sm pt-1"><b>professional</b> skills</div>
                             <div className="col-span-10">
                                 <div className="flex flex-col ">
-                                    <div className="text-xs text-justify tracking-tight mt-1"><b>Machine Learning</b> – Experience in building and optimizing Classification, Regression, Ranking and Time-Series forecasting models in domains of NLP, Vision, Tabular using Sklearn, SciPy, NLTK, Keras, XGBoost, Implicit, LightFM, Transformers, Prophet, etc. Keen on coding robust, highly parallelizable, and memory-efficient routines using Dask, Numba, JAX and Cython. </div>
-                                    <div className="text-xs text-justify tracking-tight mt-1"><b>Data Science</b> – Experience in Data Mining, Collection, Cleaning, Profiling, and Feature Engineering using BeautifulSoup, Pandas, Matplotlib, Map/Reduce and etc. Ability to apply advanced analytical methods such as clustering and regression analysis, sentiment and semantic mining, association rule and decision tree learning, dimensionality reduction and multivariate statistics using PCA/LDA, etc.</div>
-                                    <div className="text-xs text-justify tracking-tight mt-2"><b>Web Dev</b> – Experience in developing progressive SSG/SSR SPAs using TailwindCSS, React, and Next.JS. Ability to build dashboards and visualizations for static and real-time data streams using D3 and Plotly. Experience in building RESTful, SOAP, GraphQL, and RPC APIs.</div>
-                                    <div className="text-xs text-justify tracking-tight mt-2"><b>Dev Ops</b> – Experience in managing Linux environments, shell scripting and setting up clusters of microservices with CI/CD using Docker, Jenkins, Github Actions and K8s. Familiarity with Prometheus, Grafana and Terraform. </div>
+                                    <div className="text-xs text-justify tracking-tight mt-1"><b>Machine Learning</b> – Experience in building and optimizing Classification, Regression, Ranking and Time-Series forecasting models in domains of NLP, Vision, Tabular using Sklearn, SciPy, NLTK, Keras, XGBoost, Implicit, LightFM, Transformers, Prophet, BERTopic, Spark ML, etc. Keen on coding robust, highly parallelizable, and memory-efficient algorithms using PySpark, Dask, Numba, JAX and Cython. </div>
+                                    <div className="text-xs text-justify tracking-tight mt-1"><b>Data Science</b> – Experience in Data Mining, Collection, Cleaning, Profiling, and Feature Engineering using BeautifulSoup, Pandas, Matplotlib, Map/Reduce and etc. Ability to apply advanced analytical methods such as clustering and regression analysis, spatio-temporal modeling, sentiment and semantic mining, association rule and decision tree learning, topic modeling, dimensionality reduction and multivariate statistics using PCA/LDA, etc.</div>
+                                    <div className="text-xs text-justify tracking-tight mt-2"><b>Web Dev</b> – Experience in developing progressive SSG/SSR SPAs using TailwindCSS, React, and Next.JS. Experience in building RESTful, SOAP, GraphQL, and RPC APIs.</div>
+                                    <div className="text-xs text-justify tracking-tight mt-2"><b>Dev Ops</b> – Experience in managing Linux environments, shell scripting and setting up clusters of microservices with CI/CD using Docker, Jenkins, Github Actions and K8s. Familiarity with Kubernetes, Prometheus, Grafana and Terraform. </div>
                                     <div className="text-xs text-justify tracking-tight mt-2"><b>Databases</b> – Experience with SQL and NoSQL databases of PostgresSQL, MySQL, MongoDB, Redis along with Firebase and AWS cloud platforms. Familiarity with Snowflake and Google BigQuery.</div>
+                                    <div className="text-xs text-justify tracking-tight mt-2"><b>Visualizations</b> – Experience with building real-time interactive dashboards and visualizations with D3, Plotly, Matplotlib, Streamlit and PowerBI.</div>
                                     <div className="text-xs text-justify tracking-tight mt-2 mb-1"><b>Analytics</b> – Experience with Google Data Studio, Analytics, Tag Manager, Search Console, and Facebook Insights.</div>
                                 </div>
                             </div>
 
                         </div>
 
+                        {/* PROFESSIONAL EXPERIENCE */}
+
+                        <div className="mt-6 grid grid-cols-12 gap-x-4 text-justify">
+                            <div className="col-span-2 border-r-4 border-slate-200 text-right pr-4 text-sm pt-1"><b>professional</b> experience</div>
+
+                            <div className="col-span-10">
+                                <div className="flex flex-col">
+                                    <div className="text-xl">Bank of Georgia<div className="inline-block pl-1  text-xs">in Tbilisi, Georgia </div></div>
+                                    <div className="text-l">Senior Data Scientist<div className="inline-block text-xs"><span className="text-slate-300 font-bold text-base px-0.5">჻</span> Aug 2022 - Present </div></div>
+                                    <div className="text-xs">Responsibilities – Research and development of various recommendation engines for non-financial offerings available in the bank through partnerships. Solution architecture and server maintenance of a dockerized real-time recommender engine. Research and application of Large Language Models. Design and maintenance of real-time dashboards.</div>
+                                    <div className="text-xs pt-1">Highlight – Event Based Recommender: a real-time context-aware recommendation engine that leverages vast amounts of client events further enriched with derivative location data. </div>
+                                    <div className="text-xs pt-1">Miscellaneous – Short-text topic modeling and sentiment analysis of user surveys. Personalized user-to-user recommendations based on implicit feedback. <h>(Association Rule Mining, Geospatial Analytics, Collaborative Filtering)</h></div> 
+                                </div>
+                            </div>
+
+                            <div className="col-span-2 border-r-4 border-slate-200 text-right pr-4 text-sm "></div>
+                            <div className="col-span-10">
+                                <div className="flex flex-col">
+                                    <div className="text-l mt-4">Software Engineer<div className="inline-block text-xs"><span className="text-slate-300 font-bold text-base px-0.5">჻</span> Feb 2017 - Jul 2017 </div></div>
+                                    <div className="text-xs">Responsibilities – Development, research, and support of the brand new and existing products across the Digital Channels department in Web and Android. </div>
+                                    <div className="text-xs pt-1">Highlight – <a href="http://bestofbog.ge" target="_blank">www.bestofbog.ge</a> – branding website I worked on end-to-end, showcasing all of the music composed exclusively for the bank's media campaigns, built with modern UI/UX and progressive enhancements. <h>(Progressive SPA, Javascript)</h></div>
+                                </div>
+                            </div>
+
+                            <div className="col-span-2 border-r-4 border-slate-200 text-right pr-4 text-sm "></div>
+                            <div className="col-span-10">
+                                <div className="flex flex-col">
+                                    <div className="text-l mt-4">Software Engineering Intern<div className="inline-block text-xs"><span className="text-slate-300 font-bold text-base px-0.5">჻</span> May 2016 - Jan 2017 </div></div>
+                                    <div className="text-xs">Gained a general understanding of core banking ins and outs with financial and technical details. Tackled numerous engineering and algorithmic problems using various techniques on a range of platforms. <h>(Java, .NET, Android, iOS, PLSQL, Web)</h></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        
+
+                        
+                    </div>
+                    <div className="footer bg-slate-800 text-slate-100 text-xs flex flex-row justify-between h-12 px-5 items-center w-full">
+                        <a href="https://georgegach.github.io/resume" target="_blank"><div className="tracking-widest font-medium">GEORGEGACH.GITHUB.IO<span className="text-slate-100/60 font-light tracking-widest"> / RESUME</span></div></a>
+                        <div className="tracking-widest font-light">JUNE <b className="text-sm">2023</b></div>
+                    </div>
+
+
+                </div>
+
+
+                {/* PAGE 2 */}
+
+                <div className="page pageA4 bg-slate-50 text-slate-800 flex flex-col justify-between mb-36">
+                    <div className="container pl-10 pr-12 py-8">
+
+
                         {/* ACADEMIC EXPERIENCE */}
 
-                        <div className="mt-8 grid grid-cols-12 gap-x-4 font-normal">
+                        <div className="grid grid-cols-12 gap-x-4 font-normal">
                             <div className="col-span-2 border-r-4 border-slate-200 text-right pr-4 text-sm pt-1"><b>academic</b> experience</div>
                             <div className="col-span-10">
                                 <div className="flex flex-col mb-4">
@@ -179,60 +233,15 @@ export default function Resume() {
                             </div>
 
                         </div>
-                    </div>
-                    <div className="footer bg-slate-800 text-slate-100 text-xs flex flex-row justify-between h-12 px-5 items-center w-full">
-                        <a href="https://gach.ml/resume" target="_blank"><div className="tracking-widest font-medium">GACH.ML<span className="text-slate-100/60 font-light tracking-widest"> / RESUME</span></div></a>
-                        <div className="tracking-widest font-light">JUNE <b className="text-sm">2022</b></div>
-                    </div>
-
-
-                </div>
-
-
-                {/* PAGE 2 */}
-
-                <div className="page pageA4 bg-slate-50 text-slate-800 flex flex-col justify-between mb-36">
-                    <div className="container pl-10 pr-12 py-8">
-
-
-
-                        {/* PROFESSIONAL EXPERIENCE */}
-
-                        <div className="mt-0 grid grid-cols-12 gap-x-4 text-justify">
-                            <div className="col-span-2 border-r-4 border-slate-200 text-right pr-4 text-sm pt-1"><b>professional</b> experience</div>
-                            <div className="col-span-10">
-                                <div className="flex flex-col">
-                                    <div className="text-xl">Bank of Georgia<div className="inline-block pl-1  text-xs">in Tbilisi, Georgia </div></div>
-                                    <div className="text-l">Web Application Developer <div className="inline-block text-xs"><span className="text-slate-300 font-bold text-base px-0.5">჻</span> Feb 2017 - Jul 2017 </div></div>
-                                    <div className="text-xs">Responsibilities – Development, research, and support of the brand new and existing products across the Digital Channels department in Web and Android. </div>
-                                    <div className="text-xs pt-1">Highlight – <a href="http://bestofbog.ge" target="_blank">www.bestofbog.ge</a> – branding website I worked on solo, showcasing all the music composed exclusively for the bank's media campaigns, built with modern UI/UX and progressive enhancements. <h>(Progressive SPA, Javascript)</h></div>
-                                </div>
-                            </div>
-
-                            <div className="col-span-2 border-r-4 border-slate-200 text-right pr-4 text-sm"></div>
-                            <div className="col-span-10">
-                                <div className="flex flex-col">
-                                    <div className="text-l mt-4">Software Engineering Intern<div className="inline-block text-xs"><span className="text-slate-300 font-bold text-base px-0.5">჻</span> May 2016 - Jan 2017 </div></div>
-                                    <div className="text-xs">Gained a general understanding of core banking ins and outs with financial and technical details. Tackled numerous engineering and algorithmic problems using various techniques on a range of platforms. <h>(Java, .NET, Android, iOS, PLSQL, Web)</h></div>
-                                </div>
-                            </div>
-
-                        </div>
-
 
                         {/* SIDE PROJECTS */}
 
-                        <div className="mt-8 grid grid-cols-12 gap-x-4">
+                        <div className="mt-6 grid grid-cols-12 gap-x-4">
                             <div className="col-span-2 border-r-4 border-slate-200 text-right pr-4 text-sm pt-1"><b>side</b><br />projects</div>
                             <div className="col-span-10 ">
                                 <div className="flex flex-col text-left">
                                     <div className="text-l">ᲐᲜᲑᲐᲜᲘ ჻ ANBANI</div>
-                                    <div className="text-xs">An interactive educational platform designed to preserve and support every iteration of the Georgian alphabet on the internet using Web Technologies, Modern Typesetting, and Artificial Intelligence.</div>
-                                    <div className="text-xs">– <a className="underline" href="https://anbani.ge" target="_blank">Anbani.ge</a> - a collection of Web and AI tools tasked to help Georgian language and alphabet respond to the digital challenges of today.</div>
-                                    <div className="text-xs">– <a className="underline" href="https://anbani.ge/wordnet" target="_blank">Anbani Wordnet</a> - First Georgian association wordnet based on ML tools like FastText word embeddings and Bert masked language model to deliver relevant unsupervised word suggestions.</div>
-                                    <div className="text-xs">– <a className="underline" href="https://github.com/anbani/anbani.js" target="_blank">Anbani.JS</a> - Javascript toolkit for working with every iteration of the Georgian alphabet.</div>
-                                    <div className="text-xs">– <a className="underline" href="https://github.com/anbani/anbani.py" target="_blank">Anbani.Py</a> - Python toolkit for Georgian NLP tasks and more.</div>
-                                    <div className="text-xs">– <a className="underline" href="https://anbani.ge/textart" target="_blank">Anbani TextArt</a> - First Georgian text art generator because why not!</div>
+                                    <div className="text-xs"><a className="underline" href="https://anbani.ge" target="_blank">Anbani.ge</a> is an interactive platform that uses web technologies, modern typesetting, and AI to preserve each iteration of Georgian alphabet online. Included are <a className="underline" href="https://anbani.ge/wordnet" target="_blank">Anbani Wordnet</a>, a AI-tool offering unsupervised relevant word suggestions; <a className="underline" href="https://github.com/anbani/anbani.js" target="_blank">Anbani.JS</a> and <a className="underline" href="https://github.com/anbani/anbani.py" target="_blank">Anbani.Py</a>, toolkits for tasks related to the Georgian alphabet and NLP; and <a className="underline" href="https://anbani.ge/textart" target="_blank">Anbani TextArt</a>, the first Georgian text art generator.</div>
                                     <div className="text-xs">{/* Feb 2017 - Jul 2017 */}</div>
                                 </div>
                             </div>
@@ -241,7 +250,7 @@ export default function Resume() {
                             <div className="col-span-10 pb-1">
                                 <div className="flex flex-col">
                                     <div className="text-l mt-4">Flowiz</div>
-                                    <div className="text-xs">Leading PyPI-published python toolkit to convert optical flow estimation artifacts into visualizable representations such as images, and videos within a CLI or an interactive web interface on electron. Available at <a href="https://github.com/georgegach/flowiz/" target="_blank">https://github.com/georgegach/flowiz/</a></div>
+                                    <div className="text-xs">Leading Python <a class="underline" href="https://github.com/georgegach/flowiz/" target="_blank">toolkit</a> to convert optical flow estimation artifacts into visualizable representations. </div>
                                     <div className="text-xs">{/* May 2016 - Jan 2017 */}</div>
                                 </div>
                             </div>
@@ -254,32 +263,30 @@ export default function Resume() {
                                     <div className="text-xs">{/* May 2016 - Jan 2017 */}</div>
                                 </div>
                             </div>
-
-
                         </div>
+                        
 
                         {/* Languages */}
 
-                        <div className="mt-8 grid grid-cols-12 gap-x-4">
+                        <div className="mt-6 grid grid-cols-12 gap-x-4">
                             <div className="col-span-2 border-r-4 border-slate-200 text-right pr-4 text-sm pt-1 pb-1"><b>human</b><br />languages</div>
                             <div className="col-span-10">
                                 <div className="flex flex-col text-justify tracking-wide pt-3">
                                     <div className="text-sm">Georgian (Native) ჻ English (C2) ჻ Russian (B2) ჻ Lithuanian (A2) </div>
-                                    <div className="text-xs">{/* Feb 2017 - Jul 2017 */}</div>
                                 </div>
                             </div>
                         </div>
 
                         {/* Awards */}
 
-                        <div className="mt-8 grid grid-cols-12 gap-x-4">
+                        <div className="mt-6 grid grid-cols-12 gap-x-4">
                             <div className="col-span-2 border-r-4 border-slate-200 text-right pr-4 text-sm pt-1"><b>awards</b><br />and misc</div>
                             <div className="col-span-10">
                                 <div className="flex flex-col text-justify tracking-wide ">
                                     <div className="text-sm">Fulbright Scholarship</div>
                                     <div className="text-xs mb-4">James William Fulbright Scholarship granted by the Tree of Life Foundation and the U.S. State Department that allowed me to pursue Machine Learning graduate study at Worcester Polytechnic Institute in Massachusetts, United States.</div>
                                     <div className="text-sm">CYBERCUBE 2016</div>
-                                    <div className="text-xs mb-4">Cybersecurity competition organized by Ministry of Justice of Georgia with 150 participants, lasting 5 hours containing various problem sets such as executable reverse engineering, packet / logfile / malicious file, and memory dump analysis – 2nd place.</div>
+                                    <div className="text-xs mb-4">First-ever Cybersecurity competition organized by the Ministry of Justice of Georgia with 150 participants, lasting 5 hours containing various problem sets such as executable reverse engineering, packet / logfile / malicious file, and memory dump analysis – 2nd place.</div>
                                     <div className="text-sm">100% tuition coverage based on National University Entrance Exams</div>
                                     <div className="text-xs">{/* Feb 2017 - Jul 2017 */}</div>
                                 </div>
@@ -287,16 +294,16 @@ export default function Resume() {
                         </div>
                     </div>
                     <div className="footerWrapper dotgridfooter flex flex-col pt-1  bg-slate-50 justify-center items-start ">
-                        <div className="bg-slate-50 w-24 p-1 my-2 ml-2.5 mr-2 ">
+                        {/* <div className="bg-slate-50 w-24 p-1 my-2 ml-2.5 mr-2 ">
                             <Link href="/secret">
-                                <a href="http://gach.ml/secret">
+                                <a href="http://georgegach.github.io/secret">
                                     <img src="assets/resume/qr.png" className="" alt="" />
                                 </a>
                             </Link>
-                        </div>
+                        </div> */}
                         <div className="footer bg-slate-800   text-slate-100 text-xs flex flex-row justify-between px-5 h-12 items-center w-full">
-                            <a href="https://gach.ml/resume" target="_blank"><div className="tracking-widest font-medium">GACH.ML<span className="text-slate-100/60 font-light tracking-widest"> / RESUME</span></div></a>
-                            <div className="tracking-widest font-light">JUNE <b className="text-sm">2022</b></div>
+                            <a href="https://georgegach.github.io/resume" target="_blank"><div className="tracking-widest font-medium">GEORGEGACH.GITHUB.IO<span className="text-slate-100/60 font-light tracking-widest"> / RESUME</span></div></a>
+                            <div className="tracking-widest font-light">JUNE <b className="text-sm">2023</b></div>
                         </div>
                     </div>
                 </div>

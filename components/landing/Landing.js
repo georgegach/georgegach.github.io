@@ -37,7 +37,7 @@ export default function Landing({ }) {
 
                     <div className="flex flex-col bg-slate-200 relative w-full items-center justify-between py-16 md:py-32 gap-8 ">
                         <img className="rounded-full absolute z-10 top-0 -translate-y-3/4 w-1/3 md:w-1/4 max-w-xs cursor-move shadow-md shadow-slate-500/40"
-                            src="/assets/profile-512.jpg"
+                            src="/assets/profile.jpg"
                             alt="George's profle picture" />
 
 
@@ -70,17 +70,17 @@ export default function Landing({ }) {
                         <div   className="font-firago text-sm text-justify prose px-6 text-secondary-700 drop-shadow-sm">
                             <div className='bg-slate-100 p-4 -mx-4 mb-4'>
 
-                                <b> Available for hire!</b> Feel free to reach out on my socials or via <a href="mailto:georgegach@outlook.com">email</a>. Recruiters, you may obtain my resume <Link href="/resume"><a>here</a></Link>.
+                                <b> Available for offers!</b> Feel free to reach out on my socials or via <a href="mailto:georgegach@outlook.com">email</a>. Recruiters, you may obtain my latest resume <Link href="/resume"><a>here</a></Link>.
                             </div>
 
-                            For the past decade, I've had a pleasure to work in various fields of software engineering. It all started out with the delight of building awesome web and mobile apps almost a decade ago.
-                            Later on, as a Fulbright Scholar in the US, I rediscovered my long-time passion for all things Data which inevitably nudged to me delve into the rich world of modern AI during my graduate studies. <br /><br />
-                            The field I'm practicing for these past few years is called Machine Learning which concerns itself with solving conventionally unprogrammable tasks with a bunch of clever algorithms abstracted as iterative learning tasks. All throughout last decade, researchers armed with ML tools have been exceeding super-human comprehension every year in a range of fields be it vision, speech recognition, machine translation, playing GO or Starcraft!
-                            <br/><br/>At this point, it's beyond a reasonable doubt that ML is the software development 2.0, or at least a big chunk of it, and I'm excited to be part of that journey going forward.<br /><br />
+                            For the past decade, I've had the chance to dive into various corners of software engineering. My career began with the joy of building awesome web and mobile applications more than ten years ago.
+                            Later on, as a Fulbright Scholar in the United States, I rekindled my passion for all things Data, which inevitably led me to explore the intriguing world of modern Artificial Intelligence during my graduate studies. <br /><br />
 
                             On this website, you'll find some of the projects I worked on spanning but not limited to Data Science, Machine Learning, Web & Mobile apps, Music, Design, Typography, and so on. <br /><br />
+                            
+                            I currently specialize in building real-time context-aware recommender systems, leveraging a wealth of user event data. Proficient in building spatio-temporal data pipelines for large scale analytics. Extensive experience in designing and training deep learning models for various NLP tasks such as Topic Modeling and Sentiment Analysis. Actively involved in the development and applications of Large Language Models such as Generative Pretrained Transformers. <br /><br />
 
-                            I'm currently specializing in building effective NLP pipelines end-to-end from data gathering and model training to cloud deployment with CI/CD, proper governance, monitoring and friendly Web UI. Yep, my decade-long experience being a fullstack web app developer comes very handy in this new endeavour, can't complain. <br /><br />
+                            I love building stuff end-to-end which requires a lot of full-stack experience that I accumulated throughout past decade. Besides ML my skillset also extends to the domains of Web, DevOps, Databases and Visualizations. Check out my resume for more details. <br /><br />
 
                             <br /><br />
 
@@ -109,7 +109,7 @@ export default function Landing({ }) {
                 </p>
 
                 <p className='text-xl md:text-2xl text-slate-100 font-relishlight text-center mb-2 md:mb-10 px-8'>
-                    Here's a unique generative art I just made for you.
+                    Here's a unique generative art I just made personally for you.
                 </p>
 
 

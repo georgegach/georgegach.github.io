@@ -68,21 +68,20 @@ export default function Landing({ }) {
                         </div>
 
                         <div   className="font-firago text-sm text-justify prose px-6 text-secondary-700 drop-shadow-sm">
-                            <div className='bg-slate-100 p-4 -mx-4 mb-4'>
+                            <div className='bg-slate-100 p-4 -mx-4 mb-4 text-sm'>
 
-                            👋 Open to full-time remote or on-site position as a Data Solution Architect focussing on Recommender Engines, Spatio-Temporal Analytics and Application of Large Language Models. <br/><br/> 
+                            👋 Open to remote or on-site position as a Data Solution Architect. Specializing in Recommendation Systems, Spatio-Temporal Analytics and Application of Large Language Models. <br/><br/> 
                             💌 Feel free to reach out on my socials or via <a href="mailto:georgegach@outlook.com">email</a>.<br/> 
                             📜 Recruiters, you may obtain my latest resume <Link href="/resume"><a>here</a></Link>.
                             </div>
+                            <div className="text-xs">
+                                
 
-                            For the past decade, I've had the chance to dive into various corners of software engineering. My career began with the joy of building awesome web and mobile applications more than ten years ago.
-                            Later on, as a Fulbright Scholar in the United States, I rekindled my passion for all things Data, which inevitably led me to explore the intriguing world of modern Artificial Intelligence during my graduate studies. <br /><br />
+                            With over 10+ years in the field, I'm currently specializing in the deployment of production-grade scalable ML systems. I have extensive experience in training RecSys, Geospatial and NLP/LLM models, building Big Data real-time and batched pipelines with Kafka and Spark, RCT experiment design and hypothesis testing, GCP/AWS/Azure cloud integration and deployment, MLOps and server maintenance, crafting insightful apps and dashboards in PowerBI/Streamlit. <br /><br />
 
-                            On this website, you'll find some of the projects I worked on spanning but not limited to Data Science, Machine Learning, Web & Mobile apps, Music, Design, Typography, and so on. <br /><br />
-                            
-                            I currently specialize in building real-time context-aware recommender systems, leveraging a wealth of user event data. Proficient in building spatio-temporal data pipelines for large scale analytics. Extensive experience in designing and training deep learning models for various NLP tasks such as Topic Modeling and Sentiment Analysis. Actively involved in the development and applications of Large Language Models such as Generative Pretrained Transformers. <br /><br />
+                            I love building systems end-to-end which requires a lot of full-stack expertise that I have accumulated throughout my career. On this website, you'll find snippets of some of the projects I worked on. For more details, check out my resume below. <br /><br />
 
-                            I love building stuff end-to-end which requires a lot of full-stack experience that I accumulated throughout past decade. Besides ML my skillset also extends to the domains of Web, DevOps, Databases and Visualizations. Check out my resume for more details. <br /><br />
+                            </div>
 
                         </div>
 
@@ -113,20 +112,20 @@ export default function Landing({ }) {
 
             <div className="mx-auto container max-w-screen-xl flex flex-col gap-4 justify-center items-center  lg:-mt-20 mb-16" >
 
-                <p className='text-5xl md:text-7xl text-slate-100 font-relishlight tracking-tighter text-center'>
+                <p className='text-5xl md:text-7xl text-slate-100 font-relishlight tracking-tighter text-center mb-2 md:mb-12'>
                     Thanks for visiting!
                 </p>
 
-                <p className='text-xl md:text-2xl text-slate-100 font-relishlight text-center mb-2 md:mb-10 px-8'>
+                {/* <p className='text-xl md:text-2xl text-slate-100 font-relishlight text-center mb-2 md:mb-10 px-8'>
                     Here's a unique generative art I just made personally for you.
-                </p>
+                </p> */}
 
 
                 <ArtZipfv />
 
-                <p className="text-5xl md:text-7xl text-slate-100 font-relishlight tracking-tighter mt-2 md:mt-10">
+                {/* <p className="text-5xl md:text-7xl text-slate-100 font-relishlight tracking-tighter mt-2 md:mt-10">
                     Farewell
-                </p>
+                </p> */}
 
             </div>
 

@@ -20,7 +20,7 @@ export default function Card({ name, descEn, descKa, img, tags = [], url }) {
                     <div className="relative overflow-hidden rounded-b-3xl shadow-md">
 
                         <img className="w-full aspect-video object-cover " src={img} alt="Black Marble" />
-                        <div className="flex flex-col justify-end text-3xl px-4 absolute bottom-0 text-secondary-100 pb-4 w-full h-full bg-gradient-to-b from-transparent via-transparent to-secondary-900/90 gradient-sto">
+                        <div className="flex flex-col justify-end text-3xl px-4 absolute bottom-0 text-secondary-100 pb-4 w-full h-full bg-gradient-to-b from-transparent via-secondary-900/20 to-secondary-900/70 gradient-sto">
                             {name}
                         </div>
                     </div>

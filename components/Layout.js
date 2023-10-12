@@ -20,7 +20,7 @@ export default function Layout({ children }) {
                         },
                     }}
                 >
-                    <main className='isolate h-full dotgrid'>{children}</main>
+                    <main className='isolate h-full dotgrid '>{children}</main>
                 </motion.div>
             </div>
 

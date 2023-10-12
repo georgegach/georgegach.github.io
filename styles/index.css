@@ -157,10 +157,10 @@
     }
 
     .page {
-        background: white;
         display: block;
         margin: 20px auto;
         page-break-after: always;
+        @apply bg-slate-50
     }
 
     .pageA4 {
@@ -171,11 +171,15 @@
 
     @media print {
 
-        body,
+        html, body,
         .page {
             margin: 0 !important;
             /* overflow: hidden; */
             overflow: visible;
+            background: None;
+        }
+        .dotgrid {
+            background: None;
         }
 
         .hello {

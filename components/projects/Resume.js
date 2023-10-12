@@ -25,7 +25,7 @@ export default function Resume() {
 
         {/* PAGE 1 */}
 
-        <div id="page1" className="page pageA4 bg-slate-50 flex flex-col justify-between">
+        <div id="page1" className="page pageA4 flex flex-col justify-between">
           <div className="container pl-10 pr-12 pt-8">
 
             {/* NAME and SOCIAL */}
@@ -173,7 +173,7 @@ export default function Resume() {
 
         {/* PAGE 2 */}
 
-        <div className="page pageA4 bg-slate-50 text-slate-800 flex flex-col justify-between mb-36">
+        <div className="page pageA4 text-slate-800 flex flex-col justify-between mb-36">
           <div className="container pl-10 pr-12 py-8">
 
 

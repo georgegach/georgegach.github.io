@@ -100,7 +100,7 @@ export default function Resume() {
               <div className="col-span-2 border-r-4 border-slate-200 text-right pr-4 text-sm pt-0"><b>objective</b><br /></div>
               <div className="col-span-10">
                 <div className="flex flex-col justify-center">
-                  <div className="text-xs pt-0.5">Principal-level full-time remote or on-site position as a Data Architect or ML Platform Engineer.</div>
+                  <div className="text-xs pt-0.5">Principal-level full-time remote or on-site position as a Data Architect or ML Cloud Platform Engineer.</div>
                 </div>
               </div>
 

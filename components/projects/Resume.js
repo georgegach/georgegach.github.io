@@ -100,10 +100,67 @@ export default function Resume() {
               <div className="col-span-2 border-r-4 border-slate-200 text-right pr-4 text-sm pt-0"><b>objective</b><br /></div>
               <div className="col-span-10">
                 <div className="flex flex-col justify-center">
-                  <div className="text-xs pt-0.5">Principal-level full-time remote or on-site position as a Data Scientist or Machine Learning Engineer.</div>
+                  <div className="text-xs pt-0.5">Principal-level full-time remote or on-site position as a Data Architect or ML Platform Engineer.</div>
                 </div>
               </div>
 
+
+            </div>
+
+            {/* NEW PROFESSIONAL EXPERIENCE */}
+
+
+
+            {/* PROFESSIONAL EXPERIENCE */}
+
+            <div className="mt-6 grid grid-cols-12 gap-x-4 text-justify">
+              <div className="col-span-2 border-r-4 border-slate-200 text-right pr-4 text-sm pt-1"><b>professional</b> experience</div>
+
+              <div className="col-span-10">
+                <div className="flex flex-col">
+                  <div className="text-xl">Space International<div className="inline-block pl-1  text-xs">in Tbilisi, Georgia </div></div>
+                  <div className="text-l">Data Architect<div className="inline-block text-xs"><span className="text-slate-300 font-bold text-base px-0.5">჻</span> Dec 2023 - Present </div></div>
+                  <div className="text-xs">Design and implementation of a robust cloud-native hybrid Data Platform suited for stringent data residency regulations while utilizing cutting-edge Lakehouse architecture. Deployment and adoption of modern ML lifecycle tools and paradigms. Performance monitoring and optimization of data products. Evaluation of modern data ecosystem and formation of Data Strategy. </div>
+                </div>
+              </div>
+
+              <div className="col-span-2 border-r-4 border-slate-200 text-right pr-4 text-sm"></div>
+
+              <div className="col-span-10 mt-4">
+                <div className="flex flex-col">
+                  <div className="text-xl">Bank of Georgia<div className="inline-block pl-1  text-xs">in Tbilisi, Georgia </div></div>
+                  <div className="text-l">Senior Data Scientist<div className="inline-block text-xs"><span className="text-slate-300 font-bold text-base px-0.5">჻</span> Aug 2022 - Dec 2023 </div></div>
+                  <div className="text-xs">Solution architecture and server deployment for real-time contextual recommendation engine. Research and application of on-prem and remote Large Language Models in non-financial context. Design and maintenance of awesome streamlit internal apps and dashboards. RCT experiment design and hypothesis testing. Geospatial data clustering and anomaly detection. GCP and OpenAI integration.</div>
+                </div>
+              </div>
+
+              <div className="col-span-2 border-r-4 border-slate-200 text-right pr-4 text-sm "></div>
+              <div className="col-span-10">
+                <div className="flex flex-col">
+                  {/* <div className="text-l mt-4">Software Engineer<div className="inline-block text-xs"><span className="text-slate-300 font-bold text-base px-0.5">჻</span> Feb 2017 - Jul 2017 </div></div> */}
+                  <div className="text-l mt-4">Software Engineer<div className="inline-block text-xs"><span className="text-slate-300 font-bold text-base px-0.5">჻</span> May 2016 - Jul 2017 </div></div>
+                  <div className="text-xs">Gained a general understanding of core banking ins and outs with financial and technical details during an intensive internship. Tackled numerous engineering and algorithmic problems using various techniques on a range of platforms. Joined the Digital Channels Unit as a full-time software engineer primarily focused on Web and Android app development. Led and collaborated the development of several web apps of varying sizes. Aided in the launch of the first BOG mobile app on Android.</div>
+                </div>
+              </div>
+
+              {/* <div className="col-span-2 border-r-4 border-slate-200 text-right pr-4 text-sm "></div>
+              <div className="col-span-10">
+                <div className="flex flex-col">
+                  <div className="text-l mt-4">Software Engineering Intern<div className="inline-block text-xs"><span className="text-slate-300 font-bold text-base px-0.5">჻</span> May 2016 - Jan 2017 </div></div>
+                  <div className="text-xs">Gained a general understanding of core banking ins and outs with financial and technical details. Tackled numerous engineering and algorithmic problems using various techniques on a range of platforms. <h>(Java, .NET, Android, iOS, PLSQL, Web)</h></div>
+                </div>
+              </div> */}
+
+              <div className="col-span-2 border-r-4 border-slate-200 text-right pr-4 text-sm"></div>
+              <div className="col-span-10  mt-4">
+                <div className="flex flex-col">
+                  <div className="text-xl">Freelancer<div className="inline-block pl-1  text-xs">Remote</div></div>
+                  <div className="text-l">Software Engineer<div className="inline-block text-xs"><span className="text-slate-300 font-bold text-base px-0.5">჻</span> Dec 2013 - June 2021 </div></div>
+                  <div className="text-xs">Developed web applications in PHP and JavaScript, integrating with the Instagram and Facebook Graph APIs for image processing and curation, and crafted a dynamic RSS reader with a tabbed UI, filters, and search features.<h> (Javascript, PHP, Laravel, RSS/XML, IG/Graph APIs)</h></div>
+                  <div className="text-xs">Developed utilities in C# and C++ to process proprietary log data into CSV/Excel spreadsheets and convert XML data into executable SQL scripts for streamlined database migrations.<h> (C#, WinForms, .NET, C++)</h></div>
+                  <div className="text-xs">Developed high-availability ML models. Deployed real-time object detection pipelines for security cameras. Worked on several web crawlers and parsers. Designed efficient workloads of big data processing pipelines.<h> (K8s, FastAPI, Keras, Scrapy, BS4, Hadoop MapReduce)</h></div>
+                </div>
+              </div>
 
             </div>
 
@@ -114,57 +171,21 @@ export default function Resume() {
               <div className="col-span-2 border-r-4 border-slate-200 text-right pr-4 text-sm pt-1"><b>professional</b> skills</div>
               <div className="col-span-10">
                 <div className="flex flex-col ">
-                  <div className="text-xs text-justify tracking-tight mt-1"><b>Machine Learning</b> – Experience in building and optimizing Classification, Regression, Ranking and Time-Series forecasting models in domains of NLP, Vision, Tabular using Sklearn, SciPy, NLTK, Keras, XGBoost, Implicit, LightFM, Transformers, Prophet, BERTopic, Spark ML, etc. Keen on coding robust, highly parallelizable, and memory-efficient algorithms using PySpark, Dask, Numba, JAX and Cython. </div>
+                  <div className="text-xs text-justify tracking-tight mt-1"><b>Data Architecture</b> – Experience in designing hybrid cloud-native on-premise and Lakehouse Data Platform implementing modern Data Science and MLOps lifecycle practices. Familiarity with Enterprise Data Modeling, Data Quality monitoring, Data Governance and Compliance policies. </div>
+                  <div className="text-xs text-justify tracking-tight mt-1"><b>Machine Learning</b> – Experience in building and optimizing Classification, Regression, Ranking and Time-Series forecasting models for the domains of NLP, Vision and Tabular using Keras, XGBoost, Implicit, BERTopic, Spark ML, etc. Keen on coding robust, highly parallelizable, and memory-efficient algorithms using PySpark and Dask. </div>
                   <div className="text-xs text-justify tracking-tight mt-1"><b>Data Science</b> – Experience in Data Mining, Collection, Cleaning, Profiling, and Feature Engineering using PySpark, Pandas, Polars, BS4, Map/Reduce and etc. Ability to apply advanced analytical methods such as clustering and regression analysis, spatio-temporal modeling, sentiment and semantic mining, association rule and decision tree learning, topic modeling, dimensionality reduction and multivariate statistics using PCA/LDA, Randomized Controlled Trials experiment design and hypothesis testing, etc.</div>
-                  <div className="text-xs text-justify tracking-tight mt-2"><b>Web Dev</b> – Experience in developing progressive SSG/SSR SPAs using TailwindCSS, React, and Next.JS. Experience in building RESTful, SOAP, GraphQL, and RPC APIs.</div>
-                  <div className="text-xs text-justify tracking-tight mt-2"><b>Dev Ops</b> – Experience in managing Linux environments, shell scripting and setting up clusters of microservices with CI/CD using Docker, Jenkins, Github Actions and K8s. Familiarity with Kubernetes, Prometheus, Grafana and Terraform. </div>
-                  <div className="text-xs text-justify tracking-tight mt-2"><b>Databases</b> – Experience with SQL and NoSQL databases of PostgresSQL, MySQL, MongoDB, Redis along with Firebase and AWS cloud platforms. Familiarity with Snowflake and Google BigQuery.</div>
-                  <div className="text-xs text-justify tracking-tight mt-2"><b>Visualizations</b> – Experience with building real-time interactive dashboards and visualizations with D3, Plotly, Matplotlib, Streamlit and PowerBI.</div>
-                  <div className="text-xs text-justify tracking-tight mt-2 mb-1"><b>Analytics</b> – Experience with Google Data Studio, Analytics, Tag Manager, Search Console, and Facebook Insights.</div>
+                  <div className="text-xs text-justify tracking-tight mt-2"><b>ML Ops</b> – Experience in setting up fully Ansible-automated on-premise cloud-native Data Platforms with Jupyterhub, Airflow, MLflow, Minio. Keen on managing Linux environments, shell scripting and setting up clusters of microservices with CI/CD using Docker, Jenkins, Github Actions and K8s. Familiarity with Kubernetes, Prometheus, Grafana and Terraform. </div>
                 </div>
               </div>
 
             </div>
-
-            {/* PROFESSIONAL EXPERIENCE */}
-
-            <div className="mt-6 grid grid-cols-12 gap-x-4 text-justify">
-              <div className="col-span-2 border-r-4 border-slate-200 text-right pr-4 text-sm pt-1"><b>professional</b> experience</div>
-
-              <div className="col-span-10">
-                <div className="flex flex-col">
-                  <div className="text-xl">Bank of Georgia<div className="inline-block pl-1  text-xs">in Tbilisi, Georgia </div></div>
-                  <div className="text-l">Senior Data Scientist<div className="inline-block text-xs"><span className="text-slate-300 font-bold text-base px-0.5">჻</span> Aug 2022 - Present </div></div>
-                  <div className="text-xs">Solution architecture, deployment and server maintenance of real-time contextual recommendation engine. Research and application of local and remote Large Language Models in non-financial context. Design and maintenance of awesome streamlit internal apps and dashboards. RCT experiment design, execution and hypothesis testing. Geospatial data clustering and anomaly detection. GCP and OpenAI integration.</div>
-                </div>
-              </div>
-
-              <div className="col-span-2 border-r-4 border-slate-200 text-right pr-4 text-sm "></div>
-              <div className="col-span-10">
-                <div className="flex flex-col">
-                  <div className="text-l mt-4">Software Engineer<div className="inline-block text-xs"><span className="text-slate-300 font-bold text-base px-0.5">჻</span> Feb 2017 - Jul 2017 </div></div>
-                  <div className="text-xs">Responsibilities – Development, research, and support of the brand new and existing products across the Digital Channels department in Web and Android. </div>
-                  <div className="text-xs pt-1">Highlight – <a href="http://bestofbog.ge" target="_blank">www.bestofbog.ge</a> – branding website I worked on end-to-end, showcasing all of the music composed exclusively for the bank's media campaigns, built with modern UI/UX and progressive enhancements. <h>(Progressive SPA, Javascript)</h></div>
-                </div>
-              </div>
-
-              <div className="col-span-2 border-r-4 border-slate-200 text-right pr-4 text-sm "></div>
-              <div className="col-span-10">
-                <div className="flex flex-col">
-                  <div className="text-l mt-4">Software Engineering Intern<div className="inline-block text-xs"><span className="text-slate-300 font-bold text-base px-0.5">჻</span> May 2016 - Jan 2017 </div></div>
-                  <div className="text-xs">Gained a general understanding of core banking ins and outs with financial and technical details. Tackled numerous engineering and algorithmic problems using various techniques on a range of platforms. <h>(Java, .NET, Android, iOS, PLSQL, Web)</h></div>
-                </div>
-              </div>
-
-            </div>
-
 
 
 
           </div>
           <div className="footer bg-slate-800 text-slate-100 text-xs flex flex-row justify-between h-12 px-5 items-center w-full">
             <a href="https://georgegach.github.io/resume" target="_blank"><div className="tracking-widest font-medium">GEORGEGACH.GITHUB.IO<span className="text-slate-100/60 font-light tracking-widest"> / RESUME</span></div></a>
-            <div className="tracking-widest font-light">JUNE <b className="text-sm">2023</b></div>
+            <div className="tracking-widest font-light">FEB <b className="text-sm">2024</b></div>
           </div>
 
 
@@ -301,7 +322,7 @@ export default function Resume() {
                         </div> */}
             <div className="footer bg-slate-800   text-slate-100 text-xs flex flex-row justify-between px-5 h-12 items-center w-full">
               <a href="https://georgegach.github.io/resume" target="_blank"><div className="tracking-widest font-medium">GEORGEGACH.GITHUB.IO<span className="text-slate-100/60 font-light tracking-widest"> / RESUME</span></div></a>
-              <div className="tracking-widest font-light">JUNE <b className="text-sm">2023</b></div>
+              <div className="tracking-widest font-light">FEB <b className="text-sm">2024</b></div>
             </div>
           </div>
         </div>

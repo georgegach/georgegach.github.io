@@ -70,16 +70,18 @@ export default function Landing({ }) {
                         <div   className="font-firago text-sm text-justify prose px-6 text-secondary-700 drop-shadow-sm">
                             <div className='bg-slate-100 p-4 -mx-4 mb-4 text-sm'>
 
-                            👋 Open to remote or on-site position as a Data Solution Architect. Specializing in Recommendation Systems, Spatio-Temporal Analytics and Application of Large Language Models. <br/><br/> 
+                            👋 Open to remote or on-site position as a Data Platform Architect. <br/><br/> 
                             💌 Feel free to reach out on my socials or via <a href="mailto:georgegach@outlook.com">email</a>.<br/> 
                             📜 Recruiters, you may obtain my latest resume <Link href="/resume"><a>here</a></Link>.
                             </div>
                             <div className="text-xs">
                                 
 
-                            With over 10+ years in the field, I'm currently specializing in the deployment of production-grade scalable ML systems. I have extensive experience in training RecSys, Geospatial and NLP/LLM models, building Big Data real-time and batched pipelines with Kafka and Spark, RCT experiment design and hypothesis testing, GCP/AWS/Azure cloud integration and deployment, MLOps and server maintenance, crafting insightful apps and dashboards in PowerBI/Streamlit. <br /><br />
+                            With over 10+ years in the field, I'm currently specializing in the design and deployment of robust cloud-native Data Platforms focused on modern ML lifecycle and self-serve analytics. <br /><br />
+                            
+                            I also have extensive experience in building scalable ML systems, training RecSys, Geospatial and NLP/LLM models, Big Data real-time and batched pipelines with Kafka and Spark, RCT experiment design and hypothesis testing, GCP/AWS/Azure cloud integration and deployment, MLOps and server maintenance, crafting insightful apps and dashboards in PowerBI/Streamlit. <br /><br />
 
-                            I love building systems end-to-end which requires a lot of full-stack expertise that I have accumulated throughout my career. On this website, you'll find snippets of some of the projects I worked on. For more details, check out my resume below. <br /><br />
+                            I love building systems end-to-end which requires a lot of full-stack expertise that I have accumulated throughout my career. On this website, you'll find snippets of some of the projects I worked on. For more details, check out my resume below or just send a DM on Linkedin. <br /><br />
 
                             </div>
 

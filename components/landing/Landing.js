@@ -24,10 +24,10 @@ export default function Landing({ }) {
 
                     <div className='text-5xl md:text-7xl text-slate-100 font-relishlight tracking-tighter'
                     >
-                        <span>I'm </span> <h1 className="inline-flex">George</h1></div>
+                        <span>I'm </span> <h1 className="inline-flex">Giorgi</h1></div>
 
                     <h2 className='text-xl md:text-4xl text-slate-100 text-center'
-                    >Machine Learning and Web Engineer</h2>
+                    >Data Architect and Platform Engineer</h2>
 
 
                 </div>
@@ -70,7 +70,7 @@ export default function Landing({ }) {
                         <div   className="font-firago text-sm text-justify prose px-6 text-secondary-700 drop-shadow-sm">
                             <div className='bg-slate-100 p-4 -mx-4 mb-4 text-sm'>
 
-                            👋 Open to remote or on-site position as a Data Platform Architect. <br/><br/> 
+                            🚩 Open to full-time and consulting opportunities as a Data Architect.. <br/><br/> 
                             💌 Feel free to reach out on my socials or via <a href="mailto:georgegach@outlook.com">email</a>.<br/> 
                             📜 Recruiters, you may obtain my latest resume <Link href="/resume"><a>here</a></Link>.
                             </div>
